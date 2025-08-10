@@ -42,22 +42,12 @@ const menus = [
     {
         id: 6,
         title: 'Campaign',
-        link: '/campaign',
+        link: '/campaign-2',
         submenu: [
             {
-                id: 61,
-                title: 'Campaign',
-                link: '/campaign',
-            },
-            {
                 id: 62,
-                title: 'Campaign Style 2',
+                title: 'Campaigns',
                 link: '/campaign-2'
-            },
-            {
-                id: 63,
-                title: 'Campaign Style 3',
-                link: '/campaign-3'
             },
             {
                 id: 64,
@@ -68,9 +58,24 @@ const menus = [
     },
     {
         id: 3,
-        title: 'Pages',
+        title: 'Solutions',
         link: '/',
         submenu: [
+            {
+                id: 388,
+                title: 'Solutions',
+                link: '/service'
+            },
+            {
+                id: 389,
+                title: 'Solution Single',
+                link: '/service-single/Economic-Establishment'
+            },
+            {
+                id: 371,
+                title: 'Shop',
+                link: '#',
+            },
             {
                 id: 31,
                 title: 'Gallery',
@@ -92,36 +97,6 @@ const menus = [
                 link: '/team-single/Esther-Howard'
             },
             {
-                id: 388,
-                title: 'Services',
-                link: '/service'
-            },
-            {
-                id: 389,
-                title: 'Services Single',
-                link: '/service-single/Economic-Establishment'
-            },
-            {
-                id: 371,
-                title: 'Shop',
-                link: '/shop',
-            },
-            {
-                id: 375,
-                title: 'Shop Single',
-                link: '/product-single/The-Audacity-of-Hope'
-            },
-            {
-                id: 376,
-                title: 'Cart',
-                link: '/cart'
-            },
-            {
-                id: 377,
-                title: 'Checkout',
-                link: '/checkout'
-            },
-            {
                 id: 33,
                 title: 'FAQ',
                 link: '/faq'
@@ -139,12 +114,12 @@ const menus = [
             {
                 id: 35,
                 title: 'Login',
-                link: '/login'
+                link: '#'
             },
             {
                 id: 36,
                 title: 'Register',
-                link: '/register'
+                link: '#'
             },
         ]
     },
@@ -155,34 +130,14 @@ const menus = [
         link: '/blog',
         submenu: [
             {
-                id: 51,
-                title: 'Blog',
-                link: '/blog'
-            },
-            {
                 id: 52,
-                title: 'Blog Left sidebar',
-                link: '/blog-left'
-            },
-            {
-                id: 53,
-                title: 'Blog full width',
-                link: '/blog-fullwidth'
-            },
-            {
-                id: 54,
-                title: 'Blog single',
-                link: '/blog-single/support-progressive-change'
+                title: 'Blogs',
+                link: '/blog-left-sidebar'
             },
             {
                 id: 55,
-                title: 'Blog single Left sidebar',
+                title: 'Blog single',
                 link: '/blog-single-left-sidebar/support-progressive-change'
-            },
-            {
-                id: 56,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-fullwidth/support-progressive-change'
             },
         ]
     },
