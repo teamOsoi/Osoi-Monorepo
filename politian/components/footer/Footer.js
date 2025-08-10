@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Logo from '/public/images/logo.svg'
+import Logo from '/public/images/logo.png'
 import Services from '../../api/service';
 import Image from 'next/image';
 
@@ -20,7 +20,7 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-12 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <Link onClick={ClickHandler} className="navbar-brand" href="/index"><Image src={Logo} alt="" /></Link>
+                                    <Link onClick={ClickHandler} className="navbar-brand" href="/home3"><Image src={Logo} alt="" /></Link>
                                 </div>
                                 <ul className="info">
                                     <li>Phone: 111-222-333-2155</li>
@@ -65,11 +65,11 @@ const Footer = (props) => {
                                     <h3>Quick Links</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} href="/home">Home</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/home3">Home</Link></li>
                                     <li><Link onClick={ClickHandler} href="/about">About Us</Link></li>
                                     <li><Link onClick={ClickHandler} href="/service">Mission & Vision</Link></li>
                                     <li><Link onClick={ClickHandler} href="/team">Team</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/campaign">Campaign</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/campaign-2">Campaign</Link></li>
                                 </ul>
                             </div>
                         </div>

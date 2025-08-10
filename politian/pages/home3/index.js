@@ -3,31 +3,37 @@ import Navbar from '../../components/Navbar/Navbar';
 import Hero3 from '../../components/hero3/hero3';
 import Features2 from '../../components/Features2/Features2';
 import About from '../../components/about/about';
-import CampaignSectionS2 from '../../components/CampaignSectionS2/CampaignSectionS2';
+import CampaignSection from '../../components/CampaignSection/CampaignSection';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import FunFactS2 from '../../components/FunFactS2/FunFactS2';
+import FunFact from '../../components/FunFact/FunFact';
 import TeamSection from '../../components/TeamSection/TeamSection';
 import BlogSection from '../../components/BlogSection/BlogSection';
+import InstagramSection from '../../components/InstagramSection/InstagramSection';
 import Donors from '../../components/Donors/Donors';
 import Footer from '../../components/footer/Footer';
 import PartnerSection from '../../components/PartnerSection/PartnerSection';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import abimg from '/public/images/about.png'
+import abimg from '/public/images/aboutA.jpg'
+import ServiceSection from '../../components/ServiceSection/ServiceSection';
 
 const HomePage2 =() => {
     return(
         <Fragment>
-            <Navbar hclass={'wpo-site-header-s3'} Logo={'images/logo-s2.svg'}/>
+            <Navbar hclass={'wpo-site-header-s3'} Logo={'images/logo2.png'}/>
             <Hero3/>
             <Features2/>
-            <About abimg={abimg} abClass={'wpo-about-section-s3'}/>
+            <About abimg={abimg}/>
             <FunFactS2 fnTpClass={'funfact-wrap-sec'} fnClass={'wpo-fun-fact-section-s3'}/>
-            <CampaignSectionS2 cmClass={'wpo-campaign-area-s3'}/>
+            <ServiceSection/>
+            <CampaignSection/>
             <Testimonial/>
+            <FunFact/>
+            <TeamSection/>
             <Donors/>
-            <TeamSection tmClass={'pb-0'}/>
             <BlogSection/>
-            <PartnerSection prClass={'pt-0'}/>
+            <InstagramSection/>
+            <PartnerSection/>
             <Footer/>
             <Scrollbar/>
         </Fragment>

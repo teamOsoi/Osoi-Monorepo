@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Logo from '/public/images/logo-s2.svg'
+import Logo from '/public/images/logo2.png'
 import Image from 'next/image'
 
 const HeaderTopbar = () => {
@@ -9,7 +9,7 @@ const HeaderTopbar = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-3 col-12 d-lg-block d-none">
-                        <Link className="navbar-brand" href="/"><Image src={Logo} alt=""/></Link>
+                        <Link className="navbar-brand" href="/home3"><Image src={Logo} alt=""/></Link>
                     </div>
                     <div className="col-lg-9 col-12">
                         <div className="contact-info-wrap">

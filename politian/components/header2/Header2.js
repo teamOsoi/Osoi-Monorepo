@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import HeaderTopbar from '../HeaderTopbar/HeaderTopbar'
 import MobileMenu from '../MobileMenu/MobileMenu'
-import Logo from '/public/images/logo-s2.svg'
+import Logo from '/public/images/logo2.png'
 import Image from 'next/image'
 
 const Header2 = (props) => {
@@ -29,7 +29,7 @@ const Header2 = (props) => {
                             </div>
                             <div className="col-md-6 col-6 d-lg-none dl-block">
                                 <div className="navbar-header">
-                                    <Link onClick={ClickHandler} className="navbar-brand" href="/"><Image src={Logo}
+                                    <Link onClick={ClickHandler} className="navbar-brand" href="/home3"><Image src={Logo}
                                         alt="logo" /></Link>
                                 </div>
                             </div>
@@ -38,64 +38,46 @@ const Header2 = (props) => {
                                     <button className="menu-close"><i className="ti-close"></i></button>
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/">Home</Link>
-                                            <ul className="sub-menu">
-                                                <li><Link onClick={ClickHandler} href="/home">Main Home</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/home2">Election Home</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/home3">Male Candidate</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/home4">Female Candidate</Link></li>
-                                            </ul>
+                                            <Link onClick={ClickHandler} href="/home3">Home</Link>
                                         </li>
                                         <li><Link onClick={ClickHandler} href="/about">About us</Link></li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/">Campaign</Link>
+                                            <Link onClick={ClickHandler} href="/campaign-2">Campaign</Link>
                                             <ul className="sub-menu">
-                                                <li><Link onClick={ClickHandler} href="/campaign">Campaign Style 1</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/campaign-2">Campaign Style 2</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/campaign-3">Campaign Style 3</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/campaign-2">Campaigns</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/campaign-single/Support-for-Womans">Campaign single</Link></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/">Pages</Link>
+                                            <Link onClick={ClickHandler} href="/service">Solutions</Link>
                                             <ul className="sub-menu">
+                                                <li className="menu-item-has-children">
+                                                    <Link onClick={ClickHandler} href="/service">Solutions</Link>
+                                                    <ul className="sub-menu">
+                                                        <li><Link onClick={ClickHandler} href="/service">Solutions</Link></li>
+                                                        <li><Link onClick={ClickHandler} href="/service-single/Economic-Establishment">Solutions Single</Link></li>
+                                                    </ul>
+                                                </li>
+                                                <li><Link onClick={ClickHandler} href="#">Shop</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/gallery">Gallery</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/testimonial">Testimonial</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/team">Team</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/team-single/Esther-Howard">Team Single</Link></li>
-                                                <li className="menu-item-has-children">
-                                                    <Link onClick={ClickHandler} href="/">Services</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link onClick={ClickHandler} href="/service">Services</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/service-single/Economic-Establishment">Services Single</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li><Link onClick={ClickHandler} href="/shop">Shop</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/product-single/The-Audacity-of-Hope">Shop Single</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/cart">Cart</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/checkout">Checkout</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/faq">FAQ</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/volunteer">Volunteer</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/404">404 Error</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/login">Login</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/register">Register</Link></li>
+                                                <li><Link onClick={ClickHandler} href="#">Login</Link></li>
+                                                <li><Link onClick={ClickHandler} href="#">Register</Link></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/">Blog</Link>
+                                            <Link onClick={ClickHandler} href="/blog-left-sidebar">Blog</Link>
                                             <ul className="sub-menu">
-                                                <li><Link onClick={ClickHandler} href="/blog">Blog right sidebar</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/blog-left-sidebar">Blog left sidebar</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/blog-fullwidth">Blog fullwidth</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/blog-left-sidebar">Blog list</Link></li>
                                                 <li className="menu-item-has-children">
-                                                    <Link onClick={ClickHandler} href="/">Blog details</Link>
+                                                    <Link onClick={ClickHandler} href="#">Blog details</Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link onClick={ClickHandler} href="/blog-single/support-progressive-change">Blog details right sidebar</Link>
-                                                        </li>
-                                                        <li><Link onClick={ClickHandler} href="/blog-single-left-sidebar/support-progressive-change">Blog details left
-                                                            sidebar</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/blog-single-fullwidth/support-progressive-change">Blog details
-                                                            fullwidth</Link></li>
+                                                        <li><Link onClick={ClickHandler} href="/blog-single-left-sidebar/support-progressive-change">Single blogs</Link></li>
                                                     </ul>
                                                 </li>
                                             </ul>

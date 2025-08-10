@@ -56,32 +56,6 @@ const Hero3 = () => {
                                         <h5>Best Leader Award Winner</h5>
                                     </div>
                                 </div>
-                                <div className="wpo-supporter">
-                                    <div className="wpo-supporter-text">
-                                        <div className="icon"><i><Image src={icon2} alt="" /></i>
-                                        </div>
-                                        <div className="content">
-                                            <h3>500K</h3>
-                                            <p>Active Supporter</p>
-                                        </div>
-                                    </div>
-                                    <div className="wpo-supporter-img">
-                                        <ul className="wpo-supporter-slide">
-                                            <Slider {...settings}>
-                                                <li><Image
-                                                    src={cImg1} alt="" /></li>
-                                                <li><Image
-                                                    src={cImg2} alt="" /></li>
-                                                <li><Image
-                                                    src={cImg3} alt="" /></li>
-                                                <li><Image
-                                                    src={cImg4} alt="" /></li>
-                                                <li><Image
-                                                    src={cImg1} alt="" /></li>
-                                            </Slider>
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
