@@ -27,24 +27,6 @@ function MyApp({ Component, pageProps }) {
 
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-          
-          {/* Vision Section */}
-          <section className="wpo-about-section section-padding">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-lg-12">
-                  <div className="wpo-about-content">
-                    <h2>Our Vision for a Stronger Kenya</h2>
-                    <p>
-                      Every Kenyan deserves the opportunity to live with dignity, access quality healthcare,
-                      and earn a fair living. Our campaign is built on integrity, service, and unity —
-                      because we believe that a brighter future for our children begins with the choices we make today.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
 
           {/* Page content */}
           <Component {...pageProps} />
