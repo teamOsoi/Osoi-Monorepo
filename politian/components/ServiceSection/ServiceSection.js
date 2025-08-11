@@ -67,7 +67,7 @@ const ServiceSection = (props) => {
     return (
         <section className={`wpo-service-section section-padding ${props.sClass}`}>
             <div className="container">
-                <SectionTitle subTitle={'Mission And Vision'} Title={'How we can build a better country together!'}/>
+                <SectionTitle subTitle={'Mission And Vision'} Title={'Empowering Kenya through Visionary Leadership'}/>
                 <div className="row-grid wpo-service-slider">
                     <Slider {...settings}>
                         {Services.slice(0, 5).map((service, srv) => (

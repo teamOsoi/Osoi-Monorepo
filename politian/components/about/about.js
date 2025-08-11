@@ -12,7 +12,7 @@ const About = (props) => {
                             <div className="wpo-about-img">
                                 <Image src={props.abimg} alt="" />
                                 <div className="wpo-about-img-text">
-                                    <h4>1998</h4>
+                                    <h4>Kenya</h4>
 
                                     <div className="rotate-text">
                                         <span>W</span>
@@ -30,14 +30,14 @@ const About = (props) => {
                                         <span>F</span>
                                         <span>o</span>
                                         <span>r</span>
-                                        <span>Y</span>
-                                        <span>o</span>
-                                        <span>u</span>
-                                        <span>S</span>
-                                        <span>i</span>
-                                        <span>n</span>
-                                        <span>c</span>
+                                        <span>A</span>
+                                        <span> </span>
+                                        <span>B</span>
                                         <span>e</span>
+                                        <span>t</span>
+                                        <span>t</span>
+                                        <span>e</span>
+                                        <span>r</span>
                                     </div>
                                     <div className="dots">
                                         <span></span>
@@ -60,23 +60,18 @@ const About = (props) => {
                             <div className="wpo-about-text">
                                 <div className="wpo-section-title">
                                     <span>About Politian</span>
-                                    <h2>We Can Work Together For Create a Better Future.</h2>
+                                    <h2>Engage, Connect, and Shape the Future of our Country</h2>
                                 </div>
-                                <p>The leader is eager to listen to the needs of the youth generation and to hear what
-                                    solutions they have to the problems they are facing. He hopes to find solutions that
-                                    will help them lead meaningful lives and make lasting change in the world. </p>
-                                <p>He believes that the collaboration between the youth and the leaders of society is
-                                    necessary to bring about a brighter future. Now, he is ready to take the first step
-                                    to making that happen.</p>
+                                <p>TEAM OSOI believes in the ability to listen to all across the political divide, age, social status and position in life. Kenya is a one people.</p>
+                                <p>For all the issues affecting our beautiful motherland Kenya, we will come up with viable and permanent solutions that will see to it that all of us lead meaningful lives and make Kenya a wonderful place.</p>
                                 <div className="quote">
-                                    <p>“We can start by taking small steps and making small changes that can have a big
-                                        impact on the world.”</p>
+                                    <p>“We believe in collectiveness, we believe in bringing together our minds to achieve the best and undeniably great dream. A dream that can't be broken easily.”</p>
                                 </div>
                                 <div className="wpo-about-left-info">
                                     <div className="wpo-about-left-inner">
                                         <div className="wpo-about-left-text">
-                                            <h5>Robert Willum</h5>
-                                            <span>CEO & Founder of Manit</span>
+                                            <h5>Patrick Osoi</h5>
+                                            <span>Founder of PatrickOsoi Campaign</span>
                                         </div>
                                     </div>
                                     <div className="signeture">

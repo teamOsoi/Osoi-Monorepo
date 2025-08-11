@@ -22,8 +22,7 @@ const Features2 = (props) => {
                                     </div>
                                     <div className="feature-text">
                                         <h2><Link onClick={ClickHandler} href="/team">Make Donation</Link></h2>
-                                        <p>Donate now to help those in need! Make a difference by taking action with
-                                            your donation.</p>
+                                        <p>Support Patrick Osoi's Vision: Donate Today to Shape Kenya's Future! PAMOJA ITAWEZEKANA</p>
                                     </div>
                                 </div>
                             </div>
@@ -39,7 +38,7 @@ const Features2 = (props) => {
                                     </div>
                                     <div className="feature-text">
                                         <h2><Link onClick={ClickHandler} href="/campaign">Campaign Events</Link></h2>
-                                        <p>Join us in supporting a worthy cause at our charity event, together we can make a difference.</p>
+                                        <p>Discover the Power of Collective Action: Be a Part of Patrick Osoi's Campaign Events</p>
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +54,7 @@ const Features2 = (props) => {
                                     </div>
                                     <div className="feature-text">
                                         <h2><Link onClick={ClickHandler} href="/volunteer">Join Volunteer</Link></h2>
-                                        <p>Join our team of volunteers and help make a positive impact in your community today..</p>
+                                        <p>Unleash Your Potential: Join Our Volunteer Team and Make a Lasting Impact on Kenya's Future.</p>
                                     </div>
                                 </div>
                             </div>

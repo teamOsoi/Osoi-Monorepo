@@ -18,25 +18,25 @@ const testimonial = [
         id: '01',
         tImg: ts1,
         thumbImg: thumb1,
-        Des: "Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies.",
+        Des: "I pledge to continue our unwavering commitment to improving healthcare. We will work tirelessly to ensure that affordable and accessible medical services are available to all members of our community. Together, we can build a healthier future for everyone.",
         Title: 'Robert Willum',
-        Sub: "President of BPT",
+        Sub: "Health Advocate",
     },
     {
         id: '01',
         tImg: ts2,
         thumbImg: thumb2,
-        Des: "Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies.",
+        Des: "I pledge to champion the growth and success of small businesses. We will create more workshops, provide resources, and advocate for policies that support entrepreneurship. Our goal is to empower local entrepreneurs and foster a thriving business environment..”",
         Title: 'Leslie Alexander',
-        Sub: "President of TBP",
+        Sub: "Small Business Champion",
     },
     {
         id: '01',
         tImg: ts3,
         thumbImg: thumb3,
-        Des: "Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies.",
+        Des: "I pledge to tirelessly advocate for underprivileged children. We will launch initiatives to bridge the opportunity gap, ensuring that every child has equal access to quality education and supportive resources. Together, we can create a brighter future for all children.",
         Title: 'David Joy',
-        Sub: "President of AML",
+        Sub: "Advocate for Underprivileged ChildrenL",
     }
 ]
 

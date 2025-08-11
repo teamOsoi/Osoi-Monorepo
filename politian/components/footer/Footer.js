@@ -23,10 +23,9 @@ const Footer = (props) => {
                                     <Link onClick={ClickHandler} className="navbar-brand" href="/home3"><Image src={Logo} alt="" /></Link>
                                 </div>
                                 <ul className="info">
-                                    <li>Phone: 111-222-333-2155</li>
-                                    <li>Email: contact@mail.com</li>
-                                    <li>Address: 22/1 Melborane city austria,
-                                        human resoerch, Canada</li>
+                                    <li>Phone: +254 710 222 244</li>
+                                    <li>Email: info@patrickosoicampaign.com</li>
+                                    <li>Address: Address: 22/1 Nairobi city Kenya, human resoerch, Nairobi County</li>
                                 </ul>
                                 <div className="social">
                                     <ul>

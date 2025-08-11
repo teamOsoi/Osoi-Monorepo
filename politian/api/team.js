@@ -15,7 +15,7 @@ const Teams = [
         tImg:timg1,
         tSImg:tSimg1,
         slug:'Esther-Howard',
-        name:'Esther Howard',
+        name:'James Maina Karanja',
         title:'Councilor, District 3',
     },
     {
@@ -23,7 +23,7 @@ const Teams = [
         tImg:timg2,
         tSImg:tSimg2,
         slug:'Guy-Hawkins',
-        name:'Guy Hawkins',
+        name:'Griefes Mutembei',
         title:'Marketing Coordinator',
     },
     {
@@ -31,7 +31,7 @@ const Teams = [
         tImg:timg3,
         tSImg:tSimg3,
         slug:'Robert-Fox',
-        name:'Robert Fox',
+        name:'Sharon Nyangweso',
         title:'Medical Assistant',
     },
     {
@@ -39,7 +39,7 @@ const Teams = [
         tImg:timg4,
         tSImg:tSimg4,
         slug:'Devon-Lane',
-        name:'Devon Lane',
+        name:'Danielah Kipkoros',
         title:'President of Sales',
     }
 ]

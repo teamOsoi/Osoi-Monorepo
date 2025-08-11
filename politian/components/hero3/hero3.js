@@ -35,11 +35,10 @@ const Hero3 = () => {
                     <div className="container-fluid">
                         <div className="hero-content">
                             <div data-swiper-parallax="300" className="slide-title">
-                                <h2>Meet <span>Esther Howard,</span> The Next Country Leader</h2>
+                                <h2>Pamoja Let's Make <span>Kenya</span> Great</h2>
                             </div>
                             <div data-swiper-parallax="400" className="slide-text">
-                                <p>We can start by taking small steps and making small changes that can have a big
-                                    impact on the world.</p>
+                                <p>Inspiring Progress, Transforming Lives: Vote Patrick Osoi</p>
                             </div>
                             <div className="clearfix"></div>
                             <div data-swiper-parallax="500" className="slide-btns">
@@ -53,7 +52,7 @@ const Hero3 = () => {
                                 <div className="award">
                                     <div className="icon"><i><Image src={icon1} alt="" /></i></div>
                                     <div className="content">
-                                        <h5>Best Leader Award Winner</h5>
+                                        <h5>Mabadiliko na Maendeleo</h5>
                                     </div>
                                 </div>
                             </div>

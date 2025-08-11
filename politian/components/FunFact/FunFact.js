@@ -23,26 +23,26 @@ const FunFact = (props) => {
                             <div className="wpo-fun-fact-grids clearfix">
                                 <div className="grid">
                                     <div className="info">
-                                        <h3><span><CountUp end={35} enableScrollSpy /></span>K</h3>
-                                        <p>Total People lived in our city</p>
+                                        <h3><span><CountUp end={3} enableScrollSpy /></span>K</h3>
+                                        <p>Local Charities</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="info">
-                                        <h3><span><CountUp end={12} enableScrollSpy /></span>K</h3>
-                                        <p>Square kilometers region covers</p>
+                                        <h3><span><CountUp end={1} enableScrollSpy /></span>C</h3>
+                                        <p>Farmer Training Centers Established</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="info">
-                                        <h3><span><CountUp end={25} enableScrollSpy /></span>%</h3>
-                                        <p>Private & domestic garden land</p>
+                                        <h3><span><CountUp end={6} enableScrollSpy /></span>%</h3>
+                                        <p>Schools Renovated</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="info">
-                                        <h3><span><CountUp end={8} enableScrollSpy /></span>th</h3>
-                                        <p>Average Costs of Home Ownership</p>
+                                        <h3><span><CountUp end={8} enableScrollSpy /></span>C</h3>
+                                        <p>Mobile Health Clinics Established</p>
                                     </div>
                                 </div>
                             </div>
