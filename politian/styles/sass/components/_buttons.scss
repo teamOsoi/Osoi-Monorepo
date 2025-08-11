@@ -9,7 +9,7 @@
 	z-index: 1;
 	position: relative;
 	font-size: 18px;
-	background: linear-gradient(90deg, #ED6B37 11.32%, #EC180C 95.28%);
+	background: linear-gradient(90deg, #001F54 11.32%, #00BFFF 95.28%);
 	font-family: $heading-font;
 	border-radius: 0px;
 
@@ -22,7 +22,7 @@
 		width: 100%;
 		height: 100%;
 		transition: opacity 0.5s ease-out;
-		background: linear-gradient(90deg, #EC180C 11.32%, #ED6B37 95.28%);
+		background: linear-gradient(90deg, #00BFFF 11.32%, #001F54 95.28%);
 		opacity: 0;
 		z-index: -1;
 		border-radius: 5px;
