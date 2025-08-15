@@ -24,11 +24,11 @@ export default function Footer() {
   const locale = useLocale()
   const t = useTranslations()
   return (
-    <footer className='bg-gradient-to-r from-[#7f1d1d] to-[#ea580c] text-[#fff7ed]'>
+    <footer className="bg-gradient-to-r from-[#01021e] to-[#009bd1] text-[#fff7ed]">
       <div className='w-full'>
         <Button
           variant='ghost'
-          className='bg-[#facc15] hover:bg-[#fbbf24] text-black w-full rounded-none font-semibold transition-colors duration-200'
+          className='bg-[#28a3c5] hover:bg-[#3c6af2] text-white w-full rounded-none font-semibold transition-colors duration-200'
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           <ChevronUp className='mr-2 h-4 w-4' />
@@ -90,7 +90,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className='border-t border-yellow-400'>
+        <div className='border-t border-white-400'>
           <div className='max-w-7xl mx-auto py-8 px-4 flex flex-col items-center space-y-4'>
             <div className='flex items-center space-x-4 flex-wrap md:flex-nowrap'>
               <Image

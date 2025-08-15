@@ -13,7 +13,7 @@ export default async function Header() {
   const { site } = await getSetting()
   const t = await getTranslations()
   return (
-    <header className='bg-gradient-to-r from-[#7f1d1d] to-[#ea580c] text-white'>
+    <header className="sticky top-0 z-50 bg-gradient-to-r from-[#01021e] to-[#009bd1] text-white">
       <div className='px-2'>
         <div className='flex items-center justify-between'>
           <div className='flex items-center'>
